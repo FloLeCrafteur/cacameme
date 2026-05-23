@@ -16,7 +16,7 @@ from datetime import datetime
 # Sur Railway, configurez ces variables dans l'onglet "Variables"
 BOT_TOKEN  = os.environ.get("TOKEN", "VOTRE_TOKEN_LOCAL_SI_TEST")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", 1507734070535258154))
-PORT       = int(os.environ.get("PORT", 8765)) # Railway fournit le port automatiquement
+PORT       = int(os.environ.get("PORT", 8080)) # Railway fournit le port automatiquement
 # ─────────────────────────────────────────────
 
 intents = discord.Intents.default()
