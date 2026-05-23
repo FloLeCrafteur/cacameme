@@ -14,7 +14,7 @@ from datetime import datetime
 #  CONFIG — Via variables d'environnement sur Railway
 # ─────────────────────────────────────────────
 # Sur Railway, configurez ces variables dans l'onglet "Variables"
-BOT_TOKEN  = os.environ.get("TOKEN", "VOTRE_TOKEN_LOCAL_SI_TEST")
+BOT_TOKEN  = os.environ.get("TOKEN")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", 1507734070535258154))
 PORT       = int(os.environ.get("PORT", 8080)) # Railway fournit le port automatiquement
 # ─────────────────────────────────────────────
