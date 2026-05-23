@@ -97,7 +97,5 @@ async def main():
         await client.start(BOT_TOKEN)
 
 if __name__ == "__main__":
-    try:
-        asyncio.run(main())
     except KeyboardInterrupt:
         print("Arrêt du bot.")
